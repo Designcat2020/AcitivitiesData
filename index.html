@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Global Activities Perspective</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css" rel="stylesheet" />
+<style>
+	body { margin: 0; padding: 0; }
+	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+	#menu {
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+    bottom: 30px;
+    right: 3em;
+    border-radius: 3px;
+    width: 120px;
+   
+   }
+	#menu a {
+    font-size: 12px;
+    color: #404040;
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+</style>
+</head>
+<body>
+	<nav id="menu"></nav>
+	<div id='map'></div>
+	<script type='text/javascript' src="map.js"></script>
+ </body>
+</html>
