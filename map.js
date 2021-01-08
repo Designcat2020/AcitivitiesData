@@ -89,7 +89,7 @@ coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
 new mapboxgl.Popup()
 .setLngLat(coordinates)
 .setHTML(
-'Location:' + Loc + '<br>Activities: ' + Act
+'Location:' + Loc + '<br>Actors: ' + Act
 )
 .addTo(map);
 });
