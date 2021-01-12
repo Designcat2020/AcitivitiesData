@@ -22,9 +22,9 @@ source: 'activities',
 filter: ['has', 'point_count'],
 paint: {
 'circle-color': ['step',['get', 'point_count'],
-'#51bbd6',5,
-'#f1f075',10,
-'#f28cb1'
+'#fdc086',5,
+'#beaed4',10,
+'#386cb0'
 ],
 'circle-radius': ['step',['get', 'point_count'],
 20,5,
