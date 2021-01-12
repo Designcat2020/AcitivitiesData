@@ -51,7 +51,7 @@ type: 'circle',
 source: 'activities',
 filter: ['!', ['has', 'point_count']],
 paint: {
-'circle-color': '#11b4da',
+'circle-color': '##386cb0',
 'circle-radius': 4,
 'circle-stroke-width': 1,
 'circle-stroke-color': '#fff'
